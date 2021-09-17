@@ -44,6 +44,7 @@ function Sidebar() {
       <SidebarOption Icon={FileCopy} title="File browser" />
       <SidebarOption Icon={ExpandLess} title="Show less" />
       <hr />
+     
       <SidebarOption Icon={ExpandMore} title="Channels" />
       <hr />
 
