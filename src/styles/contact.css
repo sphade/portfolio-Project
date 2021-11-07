@@ -1,0 +1,120 @@
+.contact {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+}
+.contact::after {
+  content: "contact";
+  text-transform: capitalize;
+  font-weight: 900;
+  color: var(--bg-color-dark);
+
+  font-size: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+/* contact form */
+
+#message-warning,
+#message-success {
+  background: #0f0f0f;
+  padding: 24px 24px;
+  bottom: -7rem;
+  right: 1rem;
+  width: 65%;
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+#message-warning {
+  color: #d72828;
+}
+#message-success {
+  color: #11abb0;
+}
+
+#message-warning i,
+#message-success i {
+  margin-right: 2rem;
+}
+#image-loader {
+  display: none;
+  position: relative;
+  left: 18px;
+  top: 17px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 4px 13px rgb(13 11 11 / 77%);
+  border: 1px rgb(23 21 21) solid;
+  padding: 2rem;
+  width: 50rem;
+}
+
+.form-container form input,
+textarea {
+  background-color: var(--bg-color-light);
+  box-shadow: 3px 4px 13px rgb(13 11 11 / 77%);
+  border: 1px rgb(23 21 21) solid;
+  color: var(--secondary-color);
+  outline: none;
+  padding: 1rem 1.2rem;
+  margin: 0.4rem;
+  width: 100%;
+}
+
+.form-container form button {
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  font-size: 1.3rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #0f0f0f;
+  cursor: pointer;
+}
+.form-container form button:hover {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--bg-color);
+
+  color: var(--secondary-color);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+.form-container form button:active {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1);
+}
+label {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  color: var(--bg-color-lighter);
+}
+@media screen and (max-width: 768px) {
+  .form-container {
+  grid-gap: 20px;
+    flex-wrap: wrap;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  .form-container form {
+ 
+    width: 80vw;
+  }
+
+}

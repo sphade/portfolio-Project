@@ -1,0 +1,27 @@
+.btn {
+    color: var(--secondary-color);
+    padding: .5rem .1rem;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: 20rem;
+    border: 1px solid;
+  }
+  
+  .btn:hover {
+   
+    background-color: var(--secondary-color);
+  
+    color: var(--bg-color)
+     ;
+  }
+ .btn > .MuiSvgIcon-root{
+    border: 1px solid;
+/* width: 80px; */
+font-size: 2rem !important;
+ }

@@ -1,0 +1,150 @@
+{
+  "main": {
+    "name": "Lawal",
+    "occupation": "fullstack Engineer",
+    "description": "frontend developer/ backend developer/ ui and ux expert",
+    "image": "profilepic.png",
+    "bio": "An exceptional technical individual and excellent team player with a passion to design and implement highly responsive and seo driven user interfaces with great experience using the React framework. i am currently seeking a position in a growth oriented company to utilize my expertise in implementing user interaction following client-approved mock-Ups, such as wire-frames, visual design comprehensive layout, and prototypes.bringing a key eye for details, strong ability to implement mock-ups and understanding of  great user experience design. with knowledge of backend also, am able to easily understand and connect the client side to the available server. Contact me at ''sphade012@gmail.com'' || my phone no: 07049723597",
+    "email": "sphade012@gmail.com library  ",
+    "phone": "07049723597",
+    "address": {
+      "street": "21 olugbani street,",
+      "city": "ikotun",
+      "state": "lagos",
+      "zip": ""
+    },
+    "cv": "https://drive.google.com/file/d/1iD4cP9bsGrR_RYxKbGt3JNhjNWJ8-aD2/view?usp=sharing",
+    "resumedownload": "https://www.linkedin.com/in/lawaladebola/",
+    "social": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lawaladebola/",
+        "icon": "LinkedIn"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/sphade",
+        "icon": "GitHub"
+      }
+    ]
+  },
+
+  "resume": {
+    "skillsMessage": "beginning 5years ago, have always had the crave of increasing my skills set and making my self stand out more. from python to c++ to csharp and javascript,  i have always been a  'sucker' to  learning and growing. started out as frontend developer, moved to cloud engineering , backend developer ,now a  fullstack web developer. carefully hand picked the tools needed to create successful, seo driven websites that more or less converts.have created all kinds of websites, from beautiful landing pages to full-blown cms, from LMS to blogs and the list goes on. my main area of expertise are React, Express, Node, Next,Gastby, Mongodb, Firebase and APi, though, i have created website with other tools like Popular cms(wordpress, drupal), Vue.js, Angular,sql and so on.. ",
+    "education": [
+      {
+        "school": "yabatech colledge of technology",
+        "degree": "",
+        "graduated": "",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "open to work",
+        "title": "",
+        "years": "",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100"
+      },
+      {
+        "name": "Node",
+        "level": "85"
+      },
+      {
+        "name": "Git",
+        "level": "75"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99"
+      },
+      {
+        "name": "Express",
+        "level": "95"
+      },
+
+      {
+        "name": "GSAP",
+        "level": "85"
+      },
+      {
+        "name": "Firebase",
+        "level": "85"
+      },
+      {
+        "name": "Cloud",
+        "level": "75"
+      },
+      {
+        "name": "GSAP",
+        "level": "85"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "LinkedIn (React JS)",
+        "category": "",
+        "image": "linkedin.JPG",
+        "url": "https://wizardly-brattain-410d14.netlify.app"
+      },
+      {
+        "title": "Amazon-clone (React JS)",
+        "category": "",
+        "image": "amazon.JPG",
+        "url": "https://vigilant-visvesvaraya-eda4d0.netlify.app"
+      },
+      {
+        "title": "Real-Time CHAT APP(React JS)",
+        "category": "",
+        "image": "imessags.JPG",
+        "url": "https://determined-hugle-33b846.netlify.app"
+      },
+
+      {
+        "title": "trillo",
+        "category": "",
+        "image": "trillo.JPG",
+        "url": "https://peaceful-brahmagupta-68ba0a.netlify.app/"
+      },
+      {
+        "title": "slack",
+        "category": "",
+        "image": "slack.JPG",
+        "url": "https://slack-site.netlify.app/"
+      },
+      {
+        "title": "NETEX",
+        "category": "",
+        "image": "netex.JPG",
+        "url": "https://musing-ritchie-e41dd3.netlify.app/"
+      },
+      {
+        "title": "natours (html| css| js| scss)",
+        "category": "",
+        "image": "natours.JPG",
+        "url": "https://thirsty-almeida-d38b4b.netlify.app"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Lawal is absolutely excellent, his depth of knowledge & his passion to learn more and grow in the industry standards is unparalleled... I would definitely recommend",
+        "user": "Jorge Fouto -(ALIAS)"
+      },
+
+      {
+        "text": "hire this guy, why won't you hire this guy. don't you want someone who would be off 100% value and a great asset to your company, if you do, then you need too HIRE THIS GUY ",
+        "user": "Adam Curtis -(ALIAS)"
+      }
+    ]
+  }
+}
