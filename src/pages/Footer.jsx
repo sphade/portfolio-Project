@@ -20,6 +20,7 @@ function Footer() {
             fix it on <GitHub />{" "}
             <a
               href="https://github.com/sphade/portfolio-Project"
+              
               target="_blank"
             >
               github
